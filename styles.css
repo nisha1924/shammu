@@ -1,0 +1,74 @@
+/* 1. Global Reset (Standard Setup) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 2. Body Structure */
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 3. Header & Navigation Menu */
+header {
+    background-color: #1e293b; /* Dark Blue Slate */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #38bdf8; /* Light Sky Blue Links */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white; /* Hover Option */
+}
+
+/* 4. Main Content Layout Container */
+.container {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 5. Typography Headings */
+h1, h2 {
+    margin-bottom: 15px;
+    color: #0f172a;
+}
+
+/* 6. Functional Buttons Styling */
+.btn {
+    display: inline-block;
+    background-color: #2563eb; /* Primary Blue Button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #1d4ed8; /* Darker blue on hover */
+}
+
+/* 7. Footer Layout */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e293b;
+    color: white;
+    margin-top: 40px;
+}
